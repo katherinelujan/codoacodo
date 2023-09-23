@@ -1,0 +1,92 @@
+/*esto es un comentario*/
+/*
+esto es un comentario multinea
+puedo escribir en varios renglones
+*/
+
+/*selectores que permiten darle estilos a el html
+
+etiqueta
+clase // todos los estilos que se den a la web sean a traves de las clases por el momento, clasificar
+la clasificacion, es decir las class las creo en el html
+id
+
+*/
+
+/*
+
+etiqueta{
+    propiedad: valor;tamaño de una fuente
+    propiedad:valor;ancho de un div
+    propiedad:valor;color del div
+}
+
+.clase{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+
+#id{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+
+
+
+*/
+
+/*hoja de estilo en cascada, si el selector es el mismo y las propiedades son las mismas, el valor que toma es el ultimo*/
+
+/*
+#contenidoPrincipal{
+    background-color: rgb(165, 239, 165);
+}
+#parrafoFooter{
+    font-size: 12px;
+    color: #4f4f4f;
+}
+.parrafoPrincipal{
+    font-size: 25px;
+    color: #8e25d4;
+}
+
+p{
+    font-size: 20px;
+    color: red;
+}
+p{
+    font-size: 30px;
+    color: blue;
+}
+
+
+p{
+    font-size: 30px;
+    color: blue;
+}*/
+
+
+/*herencia de padres a hijos, nietos, tataranietos, etc.*/
+
+.seccionPrincipal{
+    font-size:40px;
+    color:rgb(111, 8, 8);
+}
+.seccionPrincipal .ovejaNegra{
+   color:chocolate;
+}
+.ovejaNegra{
+    color:rgb(10, 0, 119);
+}
+
+/*
+#id .class .class etiqueta{
+    propiedad:valor;
+}*/
+
+
+
+
+
